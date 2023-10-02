@@ -1,4 +1,27 @@
 *{
-    margin: 0;
+    margin: 20px;
     box-sizing: border-box;
-}
+    padding: 10px;
+    font-family: serif;
+    }
+
+    nav {
+        background: color 45040c;
+        padding: 1em;
+      }
+
+      img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+
+position: absolute;
+width: 178px;
+height: 235px;
+left: 202px;
+top: 650px;
+
+background: url(Skærmbillede 2023-10-02 kl. 17.34.png);
