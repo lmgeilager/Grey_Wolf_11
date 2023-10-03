@@ -1,3 +1,5 @@
+
+/*hvis margin herunder nulstilles, passer footeren til siden - der er heller ingen på Figmaprototypen :)*/
 *{
     margin: 11px; /*her stod før 20 px*/
     box-sizing: border-box;
@@ -104,4 +106,52 @@ background: url(Skærmbillede 2023-10-02 kl. 17.34.png);
   margin-left: 11px;
 
 }
+
+
+/*footer*/
+.grid_1-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  background-color: #EEECEC;
+}
+
+.footer_venstre{
+  text-align: left;
+  margin-left: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+
+}
+
+.footer_højre{
+  text-align: right;
+  margin-right: 20px;
+}
+
+.footer_bund{
+  background-color: #eeecec;
+  border-style: solid;
+  border-width: 1px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+footer{
+  font-family:'Times New Roman', Times, serif;
+  font-size:xx-small;
+  color:#45040C; 
+}
+
 
