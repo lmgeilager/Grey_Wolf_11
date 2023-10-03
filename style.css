@@ -3,10 +3,9 @@
 /*Anna*/
 
 .nyheder {
-margin: 11px;
 position: static;
-width: 426px;
-height: 242px;
+width: 100%;
+height: auto;
 left: -25px;
 top: 139px;
 
@@ -57,14 +56,22 @@ left: 202px;
 top: 650px;
 }
 
+.sortoghvid {
+position: static;
+width: 100%;
+height: auto;
+left: 0px;
+top: 1143px;
+
+}
+
 /*produktside - Louise*/
 /*størrelsesbokse*/
 
 body {
   background-color: #45040C;
   font-family: 'Times New Roman';
-  margin-left: 15px;
-  margin-right: 11px;
+
 }
 
 .produktbillede-stor{
