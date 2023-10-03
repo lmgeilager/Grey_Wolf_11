@@ -80,7 +80,7 @@ top: 1143px;
   width: 53px;
   height: 72px;
   position: static;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .produktbillede-lille-2{ /*virker ikke*/
@@ -110,18 +110,22 @@ top: 1143px;
 
 .xs-button{
   position: static;
+  margin-right: 5px;
 }
 
 .s-button{
   position: relative;
+  margin-right: 5px;
 }
 
 .m-button{
   position: relative;
+  margin-right: 5px;
 }
 
 .l-button{
   position: relative;
+  margin-right: 5px;
 }
 
 .xl-button{
@@ -136,7 +140,7 @@ top: 1143px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 1px;
   align-items: center;
   color: #45040C;
 
@@ -160,6 +164,21 @@ top: 1143px;
 
 .mersalg{
   text-align: center;
+  color: #EEECEC;
+  max-width: 390px;
+}
+
+.mersalg1{
+  width: 178px;
+  height: 253px;
+  position: static;
+  margin-right: 11px;
+}
+
+.mersalg2{
+  width: 178px;
+  height: 253px;
+  position: relative;
 }
 
 /*linn*/
