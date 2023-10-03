@@ -64,7 +64,8 @@ background: url(Skærmbillede 2023-10-02 kl. 17.34.png);
   display: base-line;
   align-items: center;
   color: #EEECEC;
-  margin: 0px;
+  margin-top: 11px;
+  margin-bottom: 11px;
   border: none;
 
 }
@@ -105,3 +106,16 @@ background: url(Skærmbillede 2023-10-02 kl. 17.34.png);
 
 }
 
+.dropdown-produktside{
+  box-sizing: border-box;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  border-color: #EEECEC;
+  height: 48px;
+  width: 390px;
+
+}
+
+.detaljer{
+  margin-top: 21px;
+}
