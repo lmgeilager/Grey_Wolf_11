@@ -2,6 +2,60 @@
 
 /*Anna*/
 
+.nyheder {
+margin: 11px;
+position: static;
+width: 426px;
+height: 242px;
+left: -25px;
+top: 139px;
+
+}
+.introtekst {
+  text-align: center;
+  color: #EEECEC;
+  font-family: 'Times New Roman';
+  font-size: medium;
+
+}
+
+.bomuld {
+margin: 11px;
+float: left;
+width: 178px;
+height: 235px;
+left: 202px;
+top: 650px;
+
+}
+
+.cashmere {
+margin: 11px;
+float: right;
+width: 178px;
+height: 235px;
+left: 202px;
+top: 650px;
+
+}
+
+.hør {
+margin: 11px;
+float: right;
+width: 178px;
+height: 235px;
+left: 202px;
+top: 650px;
+}
+
+.uld {
+margin: 11px;
+float: left;
+width: 178px;
+height: 235px;
+left: 202px;
+top: 650px;
+}
 
 /*produktside - Louise*/
 /*størrelsesbokse*/
