@@ -8,18 +8,21 @@
 
 body {
   background-color: #45040C;
+  font-family: 'Times New Roman';
+  margin-left: 15px;
+  margin-right: 11px;
 }
-
-/*ovenstående virker ikke. Måske noget i Annas kode blokerer? */ 
 
 .produktbillede-stor{
   width: 368px;
+  margin-bottom: 10px;
 }
 
 .produktbillede-lille-1{ /*virker ikke*/
   width: 53px;
   height: 72px;
   position: static;
+  margin-right: 10px;
 }
 
 .produktbillede-lille-2{ /*virker ikke*/
@@ -28,14 +31,15 @@ body {
   position: relative;
 }
 
+.produkttekst{
+  color: #EEECEC;
+}
+
 .button{ /*disse skal styles*/
   height: 48px;
   width: 48px;
-  background: #45040C;
-  opacity: 0.5;
+  background: #906c74; 
   font-family: 'Times New Roman';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   align-items: center;
@@ -48,8 +52,8 @@ body {
 
 .xs-button{
   position: static;
-  margin-left: 11px;
 }
+
 .s-button{
   position: relative;
 }
@@ -77,11 +81,11 @@ body {
   line-height: 18px;
   align-items: center;
   color: #45040C;
-  margin-left: 11px;
 
 }
 
 .dropdown-produktside{
+  color: #EEECEC;
   box-sizing: border-box;
   margin-top: 11px;
   margin-bottom: 11px;
@@ -94,6 +98,13 @@ body {
 .detaljer{
   margin-top: 21px;
 }
+
+
+.mersalg{
+  text-align: center;
+}
+
+/*linn*/
 
 .footer_bund{
   background-color: #eeecec;
