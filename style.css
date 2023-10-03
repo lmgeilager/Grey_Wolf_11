@@ -1,12 +1,13 @@
 *{
-    margin: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
-    padding: 10px;
     font-family: serif;
     }
 
     nav {
-        background: color 45040c;
+        background: color 45040C;
         padding: 1em;
       }
 
@@ -18,10 +19,8 @@
       }
 
 
-position: absolute;
-width: 178px;
-height: 235px;
-left: 202px;
-top: 650px;
 
-background: url(Skærmbillede 2023-10-02 kl. 17.34.png);
+
+
+
+
