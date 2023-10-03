@@ -1,44 +1,10 @@
 
-/*hvis margin herunder nulstilles, passer footeren til siden - der er heller ingen på Figmaprototypen :)*/
-*{
-<<<<<<< HEAD
-    padding: 0;
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    box-sizing: border-box;
-=======
-    margin: 11px; /*her stod før 20 px*/
-    box-sizing: border-box;
-    /*padding: 10px; har lige slukket for denne*/
->>>>>>> b91d28d6a0eab2eee71c10130b7c95514854820b
-    font-family: serif;
-    }
-
-    nav {
-        background: color #45040C;
-        padding: 1em;
-      }
-
-      img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
-
-
-
-<<<<<<< HEAD
-
-
-=======
-background: url(Skærmbillede 2023-10-02 kl. 17.34.png);
 
 /*produktside - Louise*/
 /*størrelsesbokse*/
 
 .html {
-  background-color: 45040C;
+  background-color: #45040C;
 }
 
 /*ovenstående virker ikke. Måske noget i Annas kode blokerer? */ 
@@ -69,10 +35,10 @@ background: url(Skærmbillede 2023-10-02 kl. 17.34.png);
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  display: base-line;
   align-items: center;
   color: #EEECEC;
-  margin: 0px;
+  margin-top: 11px;
+  margin-bottom: 11px;
   border: none;
 
 }
@@ -106,36 +72,24 @@ background: url(Skærmbillede 2023-10-02 kl. 17.34.png);
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
-  display: base-line;
   align-items: center;
   color: #45040C;
   margin-left: 11px;
 
 }
 
-
-/*footer*/
-.grid_1-1{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5px;
-  background-color: #EEECEC;
-}
-
-.footer_venstre{
-  text-align: left;
-  margin-left: 20px;
-  border-style: solid;
-  border-width: 1px;
-  border-left: none;
-  border-top: none;
-  border-bottom: none;
+.dropdown-produktside{
+  box-sizing: border-box;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  border-color: #EEECEC;
+  height: 48px;
+  width: 390px;
 
 }
 
-.footer_højre{
-  text-align: right;
-  margin-right: 20px;
+.detaljer{
+  margin-top: 21px;
 }
 
 .footer_bund{
@@ -159,6 +113,6 @@ footer{
   font-size:xx-small;
   color:#45040C; 
 }
->>>>>>> b91d28d6a0eab2eee71c10130b7c95514854820b
 
 
+/*>>>>>>> b90ef09005d979bcc0f02ab95bc330020acbfcb2 */
