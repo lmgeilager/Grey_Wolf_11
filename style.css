@@ -1,13 +1,21 @@
+
+/*hvis margin herunder nulstilles, passer footeren til siden - der er heller ingen på Figmaprototypen :)*/
 *{
+<<<<<<< HEAD
     padding: 0;
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
+=======
+    margin: 11px; /*her stod før 20 px*/
+    box-sizing: border-box;
+    /*padding: 10px; har lige slukket for denne*/
+>>>>>>> b91d28d6a0eab2eee71c10130b7c95514854820b
     font-family: serif;
     }
 
     nav {
-        background: color 45040C;
+        background: color #45040C;
         padding: 1em;
       }
 
@@ -20,7 +28,137 @@
 
 
 
+<<<<<<< HEAD
 
 
+=======
+background: url(Skærmbillede 2023-10-02 kl. 17.34.png);
+
+/*produktside - Louise*/
+/*størrelsesbokse*/
+
+.html {
+  background-color: 45040C;
+}
+
+/*ovenstående virker ikke. Måske noget i Annas kode blokerer? */ 
+
+.produktbillede-stor{
+  width: 368px;
+}
+
+.produktbillede-lille-1{ /*virker ikke*/
+  width: 53px;
+  height: 72px;
+  position: static;
+}
+
+.produktbillede-lille-2{ /*virker ikke*/
+  width: 53px;
+  height: 72px;
+  position: relative;
+}
+
+.button{ /*disse skal styles*/
+  height: 48px;
+  width: 48px;
+  background: #45040C;
+  opacity: 0.5;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: base-line;
+  align-items: center;
+  color: #EEECEC;
+  margin: 0px;
+  border: none;
+
+}
+
+.xs-button{
+  position: static;
+  margin-left: 11px;
+}
+.s-button{
+  position: relative;
+}
+
+.m-button{
+  position: relative;
+}
+
+.l-button{
+  position: relative;
+}
+
+.xl-button{
+  position: relative;
+}
+
+.læg-i-kurv-button{ /*disse skal styles*/
+  height: 48px;
+  width: 142px;
+  background: #EEECEC;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  display: base-line;
+  align-items: center;
+  color: #45040C;
+  margin-left: 11px;
+
+}
+
+
+/*footer*/
+.grid_1-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  background-color: #EEECEC;
+}
+
+.footer_venstre{
+  text-align: left;
+  margin-left: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+
+}
+
+.footer_højre{
+  text-align: right;
+  margin-right: 20px;
+}
+
+.footer_bund{
+  background-color: #eeecec;
+  border-style: solid;
+  border-width: 1px;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+footer{
+  font-family:'Times New Roman', Times, serif;
+  font-size:xx-small;
+  color:#45040C; 
+}
+>>>>>>> b91d28d6a0eab2eee71c10130b7c95514854820b
 
 
