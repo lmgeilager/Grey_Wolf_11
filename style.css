@@ -214,60 +214,54 @@ top: 1143px;
   margin-right: 11px;
 }
 
-/*linn*/
-/*kategoriside*/
-.grid1_1-1{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5px;
-}
 
-.række1kolonne1{
-margin: 5px;
-display: inline;
-place-items: center;
-width: 200px;
-grid-column: 1/2;
-grid-row: 1/1;
-}
 
-.række1kolonne2{
-  margin: 5px;
-  display: inline;
-  width: 200px;
-  grid-column: 2/2;
-  grid-row: 1/1;
-  }
+/*linn - kategoriside*/
 
-.p1v{
-margin: none;
-text-align: left;
-grid-column: 1/2;
-grid-row: 2/2;
-color: #EEECEC;
-}
-
-.p1h{
-  margin: none;
-  text-align: left;
-  grid-column: 2/2;
-  grid-row: 2/2;
+h1{
+  text-align: center;
   color: #EEECEC;
-  }
+  font-size: large;
+}
+
+.række1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.række2{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.række3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.række4{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.række5{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 100%;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*footer*/
+/*Linn - footer*/
 .grid_1-1{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -308,6 +302,10 @@ color: #EEECEC;
 }
 
 footer{
+  position:static;
+  bottom: 0; 
+  left: 0; 
+  right: 0;
   font-family:'Times New Roman', Times, serif;
   font-size:xx-small;
   color:#45040C; 
