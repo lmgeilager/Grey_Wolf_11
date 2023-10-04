@@ -3,14 +3,43 @@ body {
   font-family: 'Times New Roman';
 }
 
-/*Anna*/
-.logo {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 60%;
-height: auto;
+nav{
+  padding: 1em;
 }
+
+  .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+  }
+
+  ul{
+    padding: 0;
+    float: none;
+    width: 100%;
+    margin-left: 11px;
+  }
+
+  li{
+    display: inline-block;
+    padding: 1em;
+  }
+
+  li a{
+    color: #EEECEC;
+    text-decoration: none;
+  }
+
+  li a :hover{
+    text-decoration: underline;
+  }
+
+
+
+/*Anna*/
+
 
 .nyheder {
 position: static;
