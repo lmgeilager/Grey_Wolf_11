@@ -185,7 +185,8 @@ top: 1143px;
 .mersalg2{
   width: 178px;
   height: 253px;
-  position: relative;
+  float: right;
+  margin-right: 11px;
 }
 
 /*linn*/
