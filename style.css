@@ -29,10 +29,6 @@ nav{
 
   li a{
     color: #EEECEC;
-    text-decoration: none;
-  }
-
-  li a :hover{
     text-decoration: underline;
   }
 
