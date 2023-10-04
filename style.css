@@ -219,7 +219,59 @@ top: 1143px;
 }
 
 /*linn*/
+/*kategoriside*/
+.grid1_1-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
 
+.række1kolonne1{
+margin: 5px;
+display: inline;
+place-items: center;
+width: 200px;
+grid-column: 1/2;
+grid-row: 1/1;
+}
+
+.række1kolonne2{
+  margin: 5px;
+  display: inline;
+  width: 200px;
+  grid-column: 2/2;
+  grid-row: 1/1;
+  }
+
+.p1v{
+margin: none;
+text-align: left;
+grid-column: 1/2;
+grid-row: 2/2;
+color: #EEECEC;
+}
+
+.p1h{
+  margin: none;
+  text-align: left;
+  grid-column: 2/2;
+  grid-row: 2/2;
+  color: #EEECEC;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
 .grid_1-1{
   display: grid;
   grid-template-columns: 1fr 1fr;
